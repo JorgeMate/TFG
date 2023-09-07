@@ -1,0 +1,19 @@
+{% extends '@EasyAdmin/page/content.html.twig' %}
+
+
+{% block head_javascript %}
+    {{ parent() }}
+{% endblock head_javascript %}
+
+{% block configured_stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block page_title %} {{'label.cpanel'|trans}} {% endblock %}
+
+{# {% block page_content %} #}
+{% block main %}
+
+    {{ parent() }}
+
+{% endblock %}
